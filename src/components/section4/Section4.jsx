@@ -1,7 +1,7 @@
 import React from "react";
 import { data } from "../../Static"; 
 
-const TestimonialAndBlogs = () => {
+const Testimonial = () => {
   const testimonial = data.testimonial; 
   const blogs = data.blogs; 
 
@@ -41,5 +41,5 @@ const TestimonialAndBlogs = () => {
   );
 };
 
-export default TestimonialAndBlogs;
+export default Testimonial;
 
