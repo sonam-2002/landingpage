@@ -4,7 +4,7 @@ import {tutorsData} from "../../Static";
 
 const Tutors = () => {
   return (
-    <div className="bg-white-50 border border-red-800 py-10 mt-7 px-8">
+    <div className="bg-white-50  py-10 mt-7 px-8">
       <div className="text-center mb-12">
         <p className="text-purple-600 uppercase font-semibold">Tutors</p>
         <h2 className="text-3xl font-bold">Meet the Heroes</h2>
@@ -19,7 +19,7 @@ const Tutors = () => {
             key={index}
             className="bg-gray-100 p-6  hover:shadow-lg "
           >
-            {/* Image */}
+            
             <div className="flex justify-center mb-4">
               <img
                 src={tutor.image}
@@ -27,16 +27,16 @@ const Tutors = () => {
                 className="w-20 h-20 rounded-full"
               />
             </div>
-            {/* Name and Title */}
+          
             <h3 className="text-lg font-semibold text-center">{tutor.name}</h3>
             <p className="text-purple-600 text-center font-medium mb-1">
               {tutor.title}
             </p>
-            {/* Description */}
+        
             <p className="text-sm text-gray-600 text-center mb-4">
               {tutor.description}
             </p>
-            {/* Social Links */}
+        
             <div className="flex justify-center gap-4">
               <a
                 href={tutor.twitter}

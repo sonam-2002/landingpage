@@ -40,29 +40,7 @@ export const footerData = {
     ],
   };
 
-export const herodata = {
-  data1: [
-    {
-      icon: '',
-      title: 'Public Speaking',
-    },
-    {
-      icon: '',
-      title: 'Career-Oriented',
-    },
-    {
-      icon: '',
-      title: 'Creative Thinking',
-    },
-  ],
 
-  data2: [
-    {
-      icon: '',
-      title: 'Public Speaking',
-    },
-  ]
-}
 export const cardData = [
   {
     id: 1,
@@ -74,7 +52,7 @@ export const cardData = [
     price: "$17.84",
     duration: "08 hr 12 mins",
     image: "./src/assets/image1.webp",
-    logo: "./src/assets/logo3.png", // Add logo for Jane
+    logo: "./src/assets/logo3.png", 
   },
   {
     id: 2,
@@ -86,7 +64,7 @@ export const cardData = [
     price: "$8.99",
     duration: "06 hr 3 mins",
     image: "./src/assets/image2.webp",
-    logo: "./src/assets/logo2.png", // Add logo for Jenny
+    logo: "./src/assets/logo2.png", 
   },
   {
     id: 3,
@@ -98,7 +76,7 @@ export const cardData = [
     price: "$11.70",
     duration: "01 hr 2 mins",
     image: "./src/assets/image3.jpg",
-    logo: "./src/assets/logo1.png", // Add logo for Esther
+    logo: "./src/assets/logo1.png",
   },
 ];
 
@@ -109,7 +87,7 @@ export const cardData = [
     link: "#",
     icon: "MdOutlineComputer",
     bgColor: "bg-purple-500",
-    iconBgColor: "bg-gray-200 rounded-md", // Different color for icon background
+    iconBgColor: "bg-gray-200 rounded-md", 
   },
   {
     title: "Web Development",
@@ -117,7 +95,7 @@ export const cardData = [
     link: "#",
     icon: "MdWeb",
     bgColor: "bg-white",
-    iconBgColor: "bg-blue-200 rounded-md", // Different color for icon background
+    iconBgColor: "bg-blue-200 rounded-md",
   },
   {
     title: "Marketing",
@@ -125,7 +103,7 @@ export const cardData = [
     link: "#",
     icon: "MdOutlineCampaign",
     bgColor: "bg-white",
-    iconBgColor: "bg-red-200 rounded-md", // Different color for icon background
+    iconBgColor: "bg-red-200 rounded-md", 
   },
 ];
 
@@ -136,7 +114,7 @@ export const cardData = [
     name: "Theresa Webb",
     title: "Application Support Analyst Lead",
     description: "Former co-founder of Opendoor. Early staff at Spotify and Clearbit.",
-    image: "https://via.placeholder.com/100", // Replace with actual image URL
+    image: "./src/assets/teach.jpg",
     twitter: "#",
     linkedin: "#",
   },
@@ -144,7 +122,7 @@ export const cardData = [
     name: "Courtney Henry",
     title: "Director",
     description: "Lead engineering teams at Figma, Pitch, and Protocol Labs.",
-    image: "https://via.placeholder.com/100",
+    image: "./src/assets/tech2.jpg",
     twitter: "#",
     linkedin: "#",
   },
@@ -152,7 +130,7 @@ export const cardData = [
     name: "Albert Flores",
     title: "Career Educator",
     description: "Former PM for Linear, Lambda School, and On Deck.",
-    image: "https://via.placeholder.com/100",
+    image: "./src/assets/teach4.jpeg",
     twitter: "#",
     linkedin: "#",
   },
@@ -160,10 +138,50 @@ export const cardData = [
     name: "Marvin McKinney",
     title: "Co-op & operation Manager",
     description: "Former frontend dev for Linear, Coinbase, and Postscript.",
-    image: "https://via.placeholder.com/100",
+    image: "./src/assets/teach3.jpg",
     twitter: "#",
     linkedin: "#",
   },
 ];
 
+export const data = {
+  testimonial: {
+    message:
+      "Courses was fantastic! It is Master platform for those looking to start a new career, or need a refresher.",
+    name: "Jacob Jones",
+    position: "Student, National University",
+    image: "./src/assets/jocab.jpeg", 
+  },
+ 
+  
+};
 
+
+
+export const data1 = {
+  blogs: [
+    {
+      date: "November 16, 2014",
+      title: "Three Pillars of User Delight",
+      description: "Delight can be experienced viscerally and reflectively.",
+      tags: ["Research", "UI UX"],
+      image: "./src/assets/blog1.jpg", 
+    },
+    {
+      date: "September 24, 2017",
+      title: "UX Mapping Methods",
+      description: "Visual-design principles can be applied consistently throughout.",
+      tags: ["Research", "UI Design"],
+      image: "./src/assets/blog2.jpeg",
+    },
+    {
+      date: "March 13, 2014",
+      title: "Agile Development Projects and Usability",
+      description: "Agile methods aim to overcome usability barriers in traditional development.",
+      tags: ["Programming", "Research", "Developments"],
+      image: "./src/assets/blog22.jpg",
+    },
+  ],
+};
+
+export default data1;

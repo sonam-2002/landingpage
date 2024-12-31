@@ -30,7 +30,7 @@ const Cards = () => {
               </div>
               <div className="flex justify-between items-center">
                 <div className="flex items-center">
-                  {/* Add the instructor's logo before the name */}
+                
                   <img src={card.logo} alt={card.instructor} className="w-8 h-8 rounded-full mr-2" />
                   <p className="text-gray-700 text-sm">{card.instructor}</p>
                 </div>

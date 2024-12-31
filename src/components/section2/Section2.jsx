@@ -25,7 +25,7 @@ const Services = () => {
                         className={`p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ${card.bgColor === "bg-white" ? "bg-white border" : `${card.bgColor} text-white`}`}
                     >
                         <div className="flex gap-2 mt-3 mb-4">
-                            {/* Apply the icon's background color */}
+                        
                             <div className={`p-2 rounded-full ${card.iconBgColor}`}>
                                 {icons[card.icon]}
                             </div>
