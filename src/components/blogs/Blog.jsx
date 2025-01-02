@@ -60,7 +60,7 @@ const RecentBlogs = () => {
                         />
                     </div>
                     <div className="mt-6">
-                        <p className="text-sm text-purple-600">{blogs[2].date}</p>
+                        <p className="text-sm text-purple-700">{blogs[2].date}</p>
                         <h3 className="text-lg font-semibold text-gray-800 mt-2">
                             {blogs[2].title}
                         </h3>

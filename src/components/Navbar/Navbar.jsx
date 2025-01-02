@@ -33,9 +33,9 @@ const Navbar = () => {
             />
             <select name="" id="dropdown" className="focus:outline-none ">
               <option value="Option 1">Explore</option>
-              <option value="Option 2">Option 2</option>
-              <option value="Option 3">Option 3</option>
-              <option value="Option 4">Option 4</option>
+              <option value="Option 2">Python</option>
+              <option value="Option 3">Master React</option>
+              <option value="Option 4">And more...</option>
             </select>
           </form>
         </div>

@@ -6,7 +6,7 @@ const Tutors = () => {
   return (
     <div className="bg-white-50  py-10 mt-7 px-8">
       <div className="text-center mb-12">
-        <p className="text-purple-600 uppercase font-semibold">Tutors</p>
+        <p className="text-purple-700 uppercase font-semibold">Tutors</p>
         <h2 className="text-3xl font-bold">Meet the Heroes</h2>
         <p className="text-gray-600 mt-2">
           On Ed-Circle, instructors from all over the world instruct millions of students. We <br/>

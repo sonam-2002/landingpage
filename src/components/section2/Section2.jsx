@@ -13,7 +13,7 @@ const Services = () => {
     return (
         <div className="bg-gray-50 py-16 px-8">
             <div className="text-center mb-12">
-                <p className="text-purple-600 uppercase font-semibold">Our Services</p>
+                <p className="text-purple-700 uppercase font-semibold">Our Services</p>
                 <h2 className="text-3xl font-bold">
                     Fostering a playful & engaging learning environment
                 </h2>

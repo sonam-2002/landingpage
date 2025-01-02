@@ -4,7 +4,7 @@ import { cardData } from '../../Static';
 const Cards = () => {
   return (
     <div className="w-full mx-auto px-5">
-      <p className="text-purple-800 font-semibold">Explore Program</p>
+      <p className="text-purple-700 font-semibold">Explore Program</p>
       <h2 className="text-2xl font-bold mb-6 mt-3">Our Most Popular Class</h2>
       <p className="mt-2">Let’s join our famous class; the knowledge provided will definitely be useful to you.</p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

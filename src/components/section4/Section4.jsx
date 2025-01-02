@@ -31,7 +31,7 @@ const Testimonial = () => {
             className="w-16 h-16 rounded-full "
           />
         </div>
-        <p className="text-gray-500 mt-2">
+        <p className="text-gray-600 mt-2">
           {testimonial.name}
           <br />
           {testimonial.position}

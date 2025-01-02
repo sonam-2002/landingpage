@@ -1,7 +1,7 @@
 export const navitem = [
     {
         id: 1,
-        title: 'Program',
+        title: 'Programs',
     },
     {
         id: 2,

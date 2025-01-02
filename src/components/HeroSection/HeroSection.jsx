@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <div className="mt-10">
       <div className="md:flex space-x-40">
-        {/* Left Section */}
+      
         <div className=''>
           <h1 className="text-5xl font-semibold w-full md:w-96 px-2 mt-10">
             Up Your <span className="text-purple-500">Skills</span> To
